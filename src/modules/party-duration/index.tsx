@@ -1,8 +1,8 @@
 import { type Ctx, atom } from "@reatom/framework";
 import type { HTMLInputChangeEvent } from "../../shared/types";
+import { Title } from "../../ui/title";
 import { DURATION_TITLE_MAP } from "./constants";
 import { partyDurationAtom } from "./model";
-import {Title} from "../../ui/title";
 
 export const PartyDuration = () => {
 	const onStepChange = (ctx: Ctx, e: HTMLInputChangeEvent) =>
@@ -10,9 +10,7 @@ export const PartyDuration = () => {
 
 	return (
 		<section>
-			<Title>
-				Вечеринка будет долгая?
-			</Title>
+			<Title>Вечеринка будет долгая?</Title>
 
 			{atom((ctx) => (
 				<>

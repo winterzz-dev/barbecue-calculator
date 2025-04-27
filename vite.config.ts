@@ -3,8 +3,8 @@ import { defineConfig } from "vite";
 import { type ManifestOptions, VitePWA } from "vite-plugin-pwa";
 
 const manifest: Partial<ManifestOptions> = {
-	theme_color: "#f1971f",
-	background_color: "#f1971f",
+	theme_color: "#1e2939",
+	background_color: "#1e2939",
 	icons: [
 		{
 			purpose: "maskable",
