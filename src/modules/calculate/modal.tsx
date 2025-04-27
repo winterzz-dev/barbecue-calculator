@@ -1,5 +1,5 @@
 import { atom } from "@reatom/framework";
-import { MeatTypeItem } from "./components/meat-type-item.tsx";
+import { MeatTypeItem } from "./components/meat-type-item";
 import { calculationResultAtom, canShareAtom, shareAction } from "./model";
 
 interface IProps {

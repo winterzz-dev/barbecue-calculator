@@ -1,7 +1,7 @@
 import { type Ctx, atom } from "@reatom/framework";
 import plural from "plural-ru";
 import type { HTMLInputChangeEvent } from "../../shared/types";
-import { Title } from "../../ui/title.tsx";
+import { Title } from "../../ui/title";
 import { humanCounterAtom } from "./model";
 
 export { humanCounterAtom } from "./model";
