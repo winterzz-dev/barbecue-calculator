@@ -1,0 +1,28 @@
+{
+  "name": "barbecue-calculator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "pnpm biome check --write ./src/*"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.11",
+    "vite-plugin-pwa": "^0.21.1",
+    "workbox-window": "^7.3.0"
+  },
+  "dependencies": {
+    "@reatom/framework": "^3.4.63",
+    "@reatom/jsx": "^3.18.2",
+    "@tailwindcss/vite": "^4.1.4",
+    "es-toolkit": "^1.36.0",
+    "flowbite": "^3.1.2",
+    "plural-ru": "^2.0.2",
+    "tailwindcss": "^4.1.4"
+  }
+}
