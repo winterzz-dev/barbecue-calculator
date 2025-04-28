@@ -8,7 +8,7 @@ import {
 export const SHARE_DATA = {
 	title: "Калькулятор шашлыка",
 	text: "Быстро и легко рассчитать шашлык из мяса, рыбы и овощей на компанию.",
-	url: "https://дайшашлык.рф",
+	url: "https://нашашлык.рф",
 };
 
 export const SUBSTANTIAL_COEFFICIENT = {

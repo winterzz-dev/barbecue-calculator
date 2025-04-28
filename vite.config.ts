@@ -22,8 +22,8 @@ const manifest: Partial<ManifestOptions> = {
 	orientation: "any",
 	display: "standalone",
 	lang: "ru",
-	name: "Калькулятор шашлыка",
-	short_name: "Калькулятор шашлыка",
+	name: "нашашлык - калькулятор шашлыка",
+	short_name: "нашашлык",
 	start_url: "/",
 };
 
